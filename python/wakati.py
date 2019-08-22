@@ -1,5 +1,4 @@
 import MeCab
-import codecs
 import os
 
 def wakati(doc):
@@ -17,7 +16,7 @@ def wakati(doc):
 
 
 def read(file):
-	with codecs.open("txt/" + file, "r", "utf-8") as reader:
+	with open(file, 'r') as reader:
 		lines = reader.read().splitlines()
 		doc = "".join(lines)
 	return doc
@@ -33,7 +32,7 @@ def write(keywords, file):
 
 # main
 for file in os.listdir('txt'):
-	doc = read(file)
+	doc = read('txt' + file)
 	keywords = wakati(doc)
 	write(keywords, file)
 
