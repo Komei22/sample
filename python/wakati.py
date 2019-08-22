@@ -1,5 +1,6 @@
 import MeCab
 import os
+import argparse
 
 def wakati(doc):
 	tagger = MeCab.Tagger('-Owakati')
@@ -25,16 +26,21 @@ def read(file):
 def write(keywords, file):
 	if not os.path.exists('wakati'):
 		os.mkdir('wakati')
-
 	with open('wakati/' + file, 'wt') as writer:
 		writer.write(" ".join(keywords))
 
+def parse_args():
+	parser = argparse.ArgumentParser()
+	parser.add_argument('-d', '--data_dir', required=True)
+	return parser.parse_args()
 
-# main
-for file in os.listdir('txt'):
-	doc = read('txt' + file)
-	keywords = wakati(doc)
-	write(keywords, file)
+if __name__ == '__main__':
+	args = parse_args()
+	dir = args.data_dir
+	for file in os.listdir(dir):
+		doc = read(dir + '/' + file)
+		keywords = wakati(doc)
+		write(keywords, file)
 
 
 

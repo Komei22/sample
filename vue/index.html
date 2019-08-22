@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+		<title>self-organization-map</title>
+	</head>
+
+	<div id="app">
+		<h1>自己組織化マップ</h1>
+		<table id="table">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+	<script>
+		new Vue({
+			el: '#app',
+			data: {
+				board: []
+			},
+			methods: {
+			},
+		})
+	</script>
+
+	<style>
+        #table {
+            margin:0 auto;
+            border-collapse: collapse;
+            border: 3px solid #ccc;
+        }
+
+        #table td {
+
+            border:1px solid #ccc;
+            height: 80px;
+            width: 80px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 75px;
+            cursor: pointer;
+        }
+    </style>
+</html>
