@@ -1,6 +1,6 @@
 import mojimoji
 
-text = "あいうえおabcdｱｲｳｴｵ1234"
+text = "あいうえおabcdｱｲｳｴｵ1234mog-leather"
 
 result = mojimoji.han_to_zen(text)
 

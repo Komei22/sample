@@ -6,4 +6,4 @@ set = zip(number,alphabet)
 sorted_set = sorted(set)
 
 for num, alph in sorted_set:
-	print(num, alph)
+    print(num, alph)

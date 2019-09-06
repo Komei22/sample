@@ -2,9 +2,9 @@
 import re
 
 # ハイフンの種類は3種類j
-text = "-----------aaaaaーーーーーーーーーーーーbbbbbbbb－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－"
+text = "-----------aaaaaーーーーーーーーーーーーbbbbb-cccc－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－"
 
-pattern = "\-|ー+|－+"
+pattern = "\-{2,}|ー{2,}|－{2,}"
 # pattern = "ー+|\-+"
 result = re.sub(pattern, "", text)
 
