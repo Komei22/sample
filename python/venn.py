@@ -53,7 +53,8 @@ set01.set_edgecolor("black")
 set11.set_edgecolor("black")
 set10.set_edgecolor("black")
 
-pyplot.show()
+# pyplot.show()
+pyplot.savefig("venn.png", transparent=True)
 
 
 venn = venn2(subsets=(1, 1, 1), set_colors=('g', 'r'))
@@ -75,4 +76,4 @@ set01.set_edgecolor("black")
 set11.set_edgecolor("black")
 set10.set_edgecolor("black")
 
-pyplot.show()
+# pyplot.show()
