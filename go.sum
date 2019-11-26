@@ -1,0 +1,16 @@
+github.com/Komei22/sql-mask v0.1.0 h1:BQNLcg0gaNTrx/gt/CVc2mwnOXr5UWV1MjGAR55H9HE=
+github.com/Komei22/sql-mask v0.1.0/go.mod h1:RXi0WhWh9U2Rj8dRkeWufu9savkzh1Mw4JjX+l2qg8s=
+github.com/juju/errors v0.0.0-20190806202954-0232dcc7464d h1:hJXjZMxj0SWlMoQkzeZDLi2cmeiWKa7y1B8Rg+qaoEc=
+github.com/juju/errors v0.0.0-20190806202954-0232dcc7464d/go.mod h1:W54LbzXuIE0boCoNJfwqpmkKJ1O4TCTZMetAt6jGk7Q=
+github.com/knocknote/vitess-sqlparser v0.0.0-20190712090058-385243f72d33 h1:3//yyn1X4pIytNgAA3a1a7CQJm2w3WNVNCGLBQrPcPA=
+github.com/knocknote/vitess-sqlparser v0.0.0-20190712090058-385243f72d33/go.mod h1:bF2oGXw2Ex/jIPGFPaFzEf8BtNRSBWc81ni+N9UaW5Q=
+github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
+github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
+github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
+github.com/lfittl/pg_query_go v1.0.0 h1:rcHZK5DBEUoxtO6dACP+UVCHKtA1ZsELBW0rSjOXMAE=
+github.com/lfittl/pg_query_go v1.0.0/go.mod h1:jcikG62RKf+NIWmbLzjjk73m4x6um2pKf3h+TJyINms=
+github.com/xwb1989/sqlparser v0.0.0-20180606152119-120387863bf2 h1:zzrxE1FKn5ryBNl9eKOeqQ58Y/Qpo3Q9QNxKHX5uzzQ=
+github.com/xwb1989/sqlparser v0.0.0-20180606152119-120387863bf2/go.mod h1:hzfGeIUDq/j97IG+FhNqkowIyEcD88LrW6fyU3K3WqY=
+golang.org/x/text v0.3.2 h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
+golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
+golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
