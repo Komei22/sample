@@ -1,0 +1,5 @@
+#cloud-config
+
+hostname: "hoge"
+password: "fuga"
+chpasswd: {expire: False}
