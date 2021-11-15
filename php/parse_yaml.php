@@ -8,7 +8,18 @@ chpasswd:
     expire: False
 ';
 
-$user_data = yaml_parse($yaml);
+$yaml_abnormal = '#cloud-config
+hostname: foopassword: hoge
+ssh_pwauth: True
+chpasswd:
+    expire: False
+';
 
-var_dump($yaml);
-var_dump($user_data);
+$parsed_yaml = yaml_parse($yaml);
+
+// var_dump($yaml);
+var_dump($parsed_yaml);
+
+if ($parsed_yaml == false) {
+    var_dump("parse error");
+}
